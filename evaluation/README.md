@@ -16,5 +16,5 @@
 
 #### 其他文件
 - get_af2_MSA.py用于获得AlphaFold2搜索出的所有自然界MSA，用于分析生成的MSA与自然界MSA的相似性。
-- get_af2_ft.py用于获得AlphaFold2搜索出的所有自然界MSA的features.pkl，用于baseline模型evogen的输入
+- get_af2_ft.py用于获得AlphaFold2搜索出的所有自然界MSA的features.pkl，用于baseline模型evogen的输入。同时根据我们的模型的实验设置进行seqs2seqs输入数据的生成。
 - run_af2.py用于运行AlphaFold2进行结构预测。
